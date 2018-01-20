@@ -20,12 +20,7 @@ import org.springframework.transaction.support.TransactionTemplate;
 
 import com.zaxxer.hikari.HikariDataSource;
 
-/**
- * mysql数据源
- *
- * @author caicongyang1
- * @version $Id: DataSources.java, v 0.1 2015年9月9日 下午8:38:33 caicongyang1 Exp $
- */
+
 @Configuration
 @MapperScan(basePackages = "com.yonyou.springcloudapp.dao.mysql", sqlSessionFactoryRef = "mysqlSessionFactory")
 public class MysqlDataSources {

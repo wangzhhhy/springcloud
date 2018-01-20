@@ -10,11 +10,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 
 import com.yonyou.springcloudapp.main.EnableEurekaClientApplication;
 
-//
 
-/**
- * Created by caicongyang1 on 2017/4/5.
- */
 @SpringBootTest(classes = { EnableEurekaClientApplication.class })
 @WebAppConfiguration
 @TestExecutionListeners(inheritListeners = false, listeners = { DependencyInjectionTestExecutionListener.class,

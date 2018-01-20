@@ -20,11 +20,7 @@ import org.springframework.transaction.support.TransactionTemplate;
 
 import com.zaxxer.hikari.HikariDataSource;
 
-/**
- *
- * @author caicongyang1
- * @version id: PostgreSQLDataSources, v 0.1 17/8/10 下午7:21 caicongyang1 Exp $$
- */
+
 @Configuration
 @MapperScan(basePackages = "com.yonyou.springcloudapp.dao.pg", sqlSessionFactoryRef = "pgSqlSessionFactory")
 public class PostgreSqlDataSources {

@@ -7,11 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * Spring could web程序主入口
- * @author Administrator
- *
- */
+
 @Configuration//配置控制  
 @EnableAutoConfiguration//启用自动配置  
 @ComponentScan(value={"com.yonyou.springcloudapp"})//组件扫描

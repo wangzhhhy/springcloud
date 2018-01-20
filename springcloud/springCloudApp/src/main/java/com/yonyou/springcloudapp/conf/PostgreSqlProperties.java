@@ -9,12 +9,6 @@ import javax.validation.constraints.NotNull;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
-/**
- *
- * pg数据库链接属性
- * @author caicongyang1
- * @version id: PostgreSQLProperties, v 0.1 17/5/10 下午7:26 caicongyang1 Exp $$
- */
 @Configuration
 @ConfigurationProperties(prefix = "db.pg")
 public class PostgreSqlProperties {

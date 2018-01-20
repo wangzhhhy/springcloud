@@ -16,11 +16,7 @@ import org.apache.ibatis.type.MappedJdbcTypes;
 import org.apache.ibatis.type.MappedTypes;
 import org.postgresql.util.PGobject;
 
-/**
- *
- * @author caicongyang1
- * @version id: JsonTypHandler, v 0.1 17/5/11 上午10:00 caicongyang1 Exp $$
- */
+
 @MappedJdbcTypes(JdbcType.OTHER)
 @MappedTypes(String.class)
 public class JsonTypeHandler extends BaseTypeHandler<Object> {

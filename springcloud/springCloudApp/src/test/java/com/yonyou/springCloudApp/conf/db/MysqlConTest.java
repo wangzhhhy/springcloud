@@ -16,10 +16,6 @@ import com.yonyou.springcloudapp.dao.mysql.entities.TStudent;
 import com.yonyou.springcloudapp.dao.mysql.entities.TStudentExample;
 import com.yonyou.springcloudapp.dao.mysql.mapper.TStudentMapper;
 
-/**
- * @author caicongyang1
- * @version id: MysqlConTest, v 0.1 17/8/26 下午8:23 caicongyang1 Exp $$
- */
 public class MysqlConTest extends BaseCaseTest {
 
     @Autowired
