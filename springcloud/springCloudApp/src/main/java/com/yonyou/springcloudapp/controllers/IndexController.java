@@ -9,7 +9,7 @@ public class IndexController {
 	
 	@RequestMapping("/hello")
 	public String hellow() {
-		String getConf="hello, sping Cloud!";
+		String getConf="hello, sping Cloud!2222";
 		return getConf;
 	}
 

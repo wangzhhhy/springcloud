@@ -6,7 +6,7 @@ spring:
            server: 
               git:
                   uri: 
-                     https://git.oschina.net/caicongyang/spingCloudConfigRepo.git
+                     https://github.com/wangzhhhy/repo.git
                   searchPaths: 
                      repo
       application: 
