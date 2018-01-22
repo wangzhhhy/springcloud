@@ -16,5 +16,6 @@
         <module>springCloudConfigServer</module>
         <module>springCloudEurekaServer</module>
         <module>springCloudApp2</module>
+        <module>feign</module>
     </modules>
 </project>
