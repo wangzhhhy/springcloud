@@ -13,13 +13,13 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConfig {
 
-    @Value("${swagger.ui.enable}") //该配置项在配置中心管理
-    private boolean environmentSpecificBooleanFlag;
-
-    @Bean
-    public Docket docketFactory() {
-        return new Docket(DocumentationType.SWAGGER_2)
-            .apiInfo(new ApiInfo("接口文档", "SpingCloud web接口列表", "1.0", "", "", "", ""))
-            .enable(Boolean.valueOf(environmentSpecificBooleanFlag));
-    }
+//    @Value("${swagger.ui.enable}") //该配置项在配置中心管理
+//    private boolean environmentSpecificBooleanFlag;
+//
+//    @Bean
+//    public Docket docketFactory() {
+//        return new Docket(DocumentationType.SWAGGER_2)
+//            .apiInfo(new ApiInfo("接口文档", "SpingCloud web接口列表", "1.0", "", "", "", ""))
+//            .enable(Boolean.valueOf(environmentSpecificBooleanFlag));
+//    }
 }

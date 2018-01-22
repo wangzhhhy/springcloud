@@ -5,12 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class IndexController {
-	
-	
 	@RequestMapping("/hello")
 	public String hellow() {
-		String getConf="hello, sping Cloud!2222";
-		return getConf;
+		return "hello, sping Cloud!2222";
 	}
-
 }

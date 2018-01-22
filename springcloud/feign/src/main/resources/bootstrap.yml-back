@@ -1,7 +1,7 @@
 sping:
      application: 
         name: 
-           springCloudApp2
+           feign
      cloud: 
        config: 
           uri: 
